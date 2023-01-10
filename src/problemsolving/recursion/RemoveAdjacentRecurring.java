@@ -6,7 +6,7 @@ public class RemoveAdjacentRecurring {
         if(str.length()==0 || str.length()==1) return str;
         if(str.charAt(0)==str.charAt(1)){
             while(str.charAt(0)==str.charAt(1)){
-                str=str.substring(1,str.length());
+                str=str.substring(2,str.length());
             }
             return removeAdjacent(str);
         }else{
